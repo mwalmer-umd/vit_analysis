@@ -1,9 +1,8 @@
-# ViT Analysis
+# Teaching Matters: Investigating the Role of Supervision in Vision Transformers (CVPR 2023)
 
 ![plot](./misc/diagonal.gif)
 
-Repository for the work "Teaching Matters: Investigating the Role of Supervision in Vision Transformers" on analyzing and comparing ViTs trained with different methods of supervision.
-
+This is the official repository for the work [Teaching Matters: Investigating the Role of Supervision in Vision Transformers](https://arxiv.org/abs/2212.03862) accepted to CVPR 2023. It includes scripts and function for analyzing and comparing ViTs trained with different methods of supervision. Also see our [Project Webpage](http://www.cs.umd.edu/~sakshams/vit_analysis/).
 
 
 ## Setup
@@ -284,3 +283,16 @@ CKA Code: https://github.com/AntixK/PyTorch-Model-Compare
 ## License
 
 Distributed under the MIT License.
+
+## Citation
+
+If you found our work useful, please consider citing our paper:
+
+```
+@article{walmer2022teaching,
+  title={Teaching Matters: Investigating the Role of Supervision in Vision Transformers},
+  author={Walmer, Matthew and Suri, Saksham and Gupta, Kamal and Shrivastava, Abhinav},
+  journal={arXiv preprint arXiv:2212.03862},
+  year={2022}
+}
+```
