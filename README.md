@@ -2,7 +2,7 @@
 
 ![plot](./misc/diagonal.gif)
 
-This is the official repository for the work [Teaching Matters: Investigating the Role of Supervision in Vision Transformers](https://arxiv.org/abs/2212.03862) accepted to CVPR 2023. It includes scripts and function for analyzing and comparing ViTs trained with different methods of supervision. Also see our [Project Webpage](http://www.cs.umd.edu/~sakshams/vit_analysis/).
+This is the official repository for the work [Teaching Matters: Investigating the Role of Supervision in Vision Transformers](https://openaccess.thecvf.com/content/CVPR2023/html/Walmer_Teaching_Matters_Investigating_the_Role_of_Supervision_in_Vision_Transformers_CVPR_2023_paper.html) accepted to CVPR 2023. It includes scripts and function for analyzing and comparing ViTs trained with different methods of supervision. Also see our [Project Webpage](http://www.cs.umd.edu/~sakshams/vit_analysis/).
 
 
 ## Setup
@@ -289,10 +289,11 @@ Distributed under the MIT License.
 If you found our work useful, please consider citing our paper:
 
 ```
-@article{walmer2022teaching,
+@inproceedings{walmer2023teaching,
   title={Teaching Matters: Investigating the Role of Supervision in Vision Transformers},
   author={Walmer, Matthew and Suri, Saksham and Gupta, Kamal and Shrivastava, Abhinav},
-  journal={arXiv preprint arXiv:2212.03862},
-  year={2022}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7486--7496},
+  year={2023}
 }
 ```
